@@ -1,0 +1,73 @@
+body {
+font-family: Arial, sans-serif;
+background: #f0f8ff;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+color: darkblue;
+}
+
+
+ul {
+list-style-type: square; 
+padding: 10px 30px;
+background: #e6f2ff;
+border-radius: 10px;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+li {
+margin: 8px 0;
+font-size: 18px;
+color: #003366;
+}
+
+/* --- Form სტილი --- */
+form {
+margin-top: 20px;
+background: #ffffff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #aaa;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* placeholder */
+input::placeholder, textarea::placeholder {
+color: gray;
+font-style: italic;
+}
+
+/* focus */
+input:focus, textarea:focus {
+border: 2px solid blue;
+outline: none;
+}
+
+button {
+background: darkblue;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: navy;
+}

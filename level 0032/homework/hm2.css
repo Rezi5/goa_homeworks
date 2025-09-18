@@ -1,0 +1,23 @@
+.home{
+    color: red;
+    font-size: 50px;
+}
+
+.ab{
+    font-size: 40px;
+    color: black;
+}
+
+.inf{
+    font-size: 30px;
+    color: blue;
+}
+.con{
+    font-size: 20px;
+    color: yellow;
+}
+
+.mob{
+    font-size: 10px;
+    color: orange;
+}

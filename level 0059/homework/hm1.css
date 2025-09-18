@@ -1,0 +1,17 @@
+.f{
+    aspect-ratio: 1/2;
+    width: 90px;
+    background-color: black;
+}
+
+.s{
+    background-color: red;
+    aspect-ratio: 1/2;
+    width: 100px;
+}
+
+.t{
+    aspect-ratio: 1/6;
+    width: 50px;
+    background-color: blue;
+}

@@ -1,0 +1,7 @@
+.f{
+    width: 80%;
+    aspect-ratio: 16/9;
+    margin: 20px;
+    border: solid red 2px;
+    background: lightblue;
+}

@@ -1,0 +1,18 @@
+.list{
+    color: aquamarine;
+}
+.list:hover{
+    color: black;
+}
+
+.list{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+.word{
+    color: blue;
+}
+.word:active{
+    color: chartreuse;
+}

@@ -1,0 +1,23 @@
+.f{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+}
+
+.s{
+    display: inline;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+}
+
+.t{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+}

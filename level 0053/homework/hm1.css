@@ -1,0 +1,27 @@
+.n1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+.n2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.n3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.n4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: justify;
+}

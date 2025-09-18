@@ -1,0 +1,9 @@
+.change{
+    background-color: yellow;
+}
+.change:active{
+    background-color: red;
+}
+.change:hover{
+    background-color: blue;
+}

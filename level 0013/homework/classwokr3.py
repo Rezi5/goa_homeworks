@@ -1,0 +1,5 @@
+name = input("enter name:")
+surname = input("enter ur surname:")
+age = int(input("enter ur age:"))
+country = input("Where are u from")
+print(f'{name}, {surname},{age,country}')

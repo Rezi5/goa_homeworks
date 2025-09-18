@@ -1,0 +1,24 @@
+/* .box {
+    width: 200px;               Content-ის სიგანე
+    height: 100px;              Content-ის სიმაღლე
+    background-color: lightblue; Content + Padding background ფერი
+
+    padding: 20px;              Padding – შიგთავსის შიდა სივრცე
+    border: 5px solid blue;     Border – content+padding-ის საზღვარი
+    margin: 30px;               Margin – გარე სივრცე სხვა ელემენტებამდე
+    } */
+
+
+.first{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 30px;
+}
+
+.second{
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

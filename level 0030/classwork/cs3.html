@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>jasjsajasjasj</title>
+
+<!-- Internal სტილი იწერება <style> shi და ახდენს სტილის ზემოქმედებას class-ით -->
+<style>
+    .styled {
+      color: blue; /* ეს internal სტილი პარაგრაფს ლურჯად აღებავს */
+    }
+</style>
+
+<!-- External სტილის მიერთება -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ამ პარაგრაფს აქვს სამივე სტილის ზემოქმედება: -->
+<!-- 1. External  აძლევს მწვანე ფერს -->
+<!-- 2. Internal აძლევს ლურჯ ფერს -->
+<!-- 3. Inline სტილი აძლევს წითელ ფერს და რადგან inline ყველაზე ძლიერია — ის იმარჯვებს -->
+<p class="styled" style="color: red;">
+    ეს პარაგრაფი გაფორმებულია სამ სტილში, მხოლოდ ფერისთვის.
+</p>
+
+</body>
+</html>
