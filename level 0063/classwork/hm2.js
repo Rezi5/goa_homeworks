@@ -1,0 +1,6 @@
+let us1 = prompt("Enter a number")
+let us2 = prompt("Enter a second num")
+console.log(us1 + us2)
+console.log(us1 - us2)
+console.log(us1 * us2)
+console.log(us1 / us2)
