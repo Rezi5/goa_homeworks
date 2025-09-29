@@ -1,0 +1,45 @@
+img{
+    width: 300px;
+    height: 200px;
+}
+
+/* div{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    overflow: hidden;
+} */
+
+
+/* .f{
+    overflow: hidden;
+} */
+
+
+/* div{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.f{
+    overflow: scroll;
+} */
+
+
+div{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.f{
+    overflow: auto;
+}
+
+
