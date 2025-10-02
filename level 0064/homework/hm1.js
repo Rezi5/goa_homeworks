@@ -1,4 +1,4 @@
-//funqciebis sheqmnis sami gzagvaqvs 1)function user(){} 2)const = function(){} 3) const = user = () =>{}
+// funqciebis sheqmnis sami gzagvaqvs 1)function user(){} 2)const = function(){} 3) const = user = () =>{}
 
 // const user = () =>{
 
