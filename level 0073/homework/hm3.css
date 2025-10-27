@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+.idk{
+    background-color: blue;
+    height: 20px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 300px;
+    animation-name: nan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nan{
+    0%{
+        background-color: black;
+        width: 10px;
+    }
+    10%{
+        background-color: red;
+        width: 20px;
+    }
+    20%{
+        background-color: orange;
+        width: 30px;
+    }
+    30%{
+        background-color: green;
+        width: 100px;
+    }
+    40%{
+        background-color: blue;
+        width: 200px;
+    }
+    50%{
+        background-color: purple;
+        width: 300px;
+    }
+}

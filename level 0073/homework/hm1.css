@@ -1,0 +1,86 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    animation-name: move;       ანიმაციის სახელი
+    animation-duration: 2s;     რამდენ ხანს გაგრძელდება
+    animation-iteration-count: infinite; რამდენჯერ განმეორდეს
+}
+
+
+
+@keyframes move {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(200px); }
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    position: relative;
+
+    ყველა animation თვისება
+animation-name: move;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+animation-play-state: running;
+}
+
+@keyframes — აღწერს როგორ იმოძრაოს
+@keyframes move {
+0%   { left: 0;   background: crimson; }
+50%  { left: 200px; background: orange; }
+100% { left: 0;   background: yellow; }
+} */
+
+/* .box{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin-top: 200px;
+    transition:  3s;
+
+}
+.box:hover{
+    transform: translateY(129px)
+    
+} */
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    margin-top: 200px;
+    transition:  3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 3s;
+    animation-name: smth;
+}
+.box:hover{
+    animation-play-state: running;
+}
+
+@keyframes smth {
+    0% {
+        background-color: aliceblue;
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        background-color: red;
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        background-color: black;
+        width: 200px;
+        height: 200px;
+    }
+}
