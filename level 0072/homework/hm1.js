@@ -18,9 +18,9 @@
 
 // let user = document.querySelector('p')
 // user.textContent = 'New content updated'
-const main = document.querySelector('main');
-main.innerHTML = `
-    <div>Welcome!</div>
-    <p>This is inside the main tag.</p>
-    <button>Click me</button>
-`;
+// const main = document.querySelector('main');
+// main.innerHTML = `
+//     <div>Welcome!</div>
+//     <p>This is inside the main tag.</p>
+//     <button>Click me</button>
+// `;
