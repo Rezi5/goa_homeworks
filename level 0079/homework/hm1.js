@@ -11,7 +11,7 @@ pinkBtn.addEventListener("click", () => {
 });
 
 let claimBtn = document.getElementsByClassName("sur")[0];
-let passwordInput = document.querySelector('input[type="password"]');
+let passwordInput = document.querySelector('.F');
 
 claimBtn.addEventListener("click", () => {
     if(passwordInput.value.length < 8) {
