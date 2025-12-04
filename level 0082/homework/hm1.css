@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+
+
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+@media (max-width: 599px) {
+    #box1 {
+        background: blue;
+    }
+}
+
+#text1 {
+    font-size: 40px;
+}
+
+@media (max-width: 499px) {
+    #text1 {
+        font-size: 20px;
+    }
+}
+
+#box2 {
+    width: 400px;
+    height: 200px;
+    background: red;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #box2 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    #box2 {
+        width: 200px;
+    }
+}
