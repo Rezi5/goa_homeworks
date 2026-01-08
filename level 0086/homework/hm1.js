@@ -9,6 +9,7 @@ let id = setInterval(()=>{
     time++
 },1000)
 
+
 get2.addEventListener('click',()=>{
     clearInterval(id)
 })

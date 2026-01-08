@@ -1,0 +1,43 @@
+.Im1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Im2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    
+}
+
+
+.Im3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin-left:  400px;
+}
+
+.Im4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin-left:  800px;
+}
+
+.Im5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin-left:  1200px;
+}
+
+
