@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+div, ul, li, button, p, section, a {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.new-class {
+    color: red;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #f0f0f0;
+    width: 200px;
+}
+
+.parent span {
+    display: inline-block;
+    margin-right: 5px;
+}
