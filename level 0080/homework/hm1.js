@@ -1,136 +1,114 @@
-// const arrs = [10, 20, 30, 40];
-// function usr(f,s){
-//     console.log(s,f)
-// }
-// arrs.forEach(usr)
+   const words = ["apple", "banana", "cat"];
+function use(word){
+    console.log(word.length)
+}
+words.forEach(use)
 
+const nums = [3, 6, 9, 12];
+let sum = 0
+nums.forEach(function(num){
+    sum += num
+})
+console.log(sum)
 
-// const words = ["apple", "banana", "cat"];
-// function use(word){
-//     console.log(word.length)
-// }
-// words.forEach(use)
+const users = [
+  {name: "Nika", age: 17},
+  {name: "Lika", age: 19}
+];
+users.forEach(function(N){
+    console.log(N.name + N.age)
+})
 
-// const nums = [3, 6, 9, 12];
-// let sum = 0
-// nums.forEach(function(num){
-//     sum += num
-// })
+const letters = ["a", "b", "c"];
+letters.forEach(function(usr){
+    console.log("#" + usr)
+})
 
-// console.log(sum)
+const nums2 = [1, 2, 3, 4];
+let usr1 = nums2.map(function(us){
+    return us * 2
+})
+console.log(usr1)
 
+const names = ["Ana", "Gio", "Nika"];
+let usr2 = names.map(function(nam){
+    return(nam.toUpperCase())
+})
+console.log(usr2)
 
-// const users = [
-// {name: "Nika", age: 17},
-// {name: "Lika", age: 19}
-// ];
+const prices = [10, 20, 30];
+let usr3 = prices.map(function(ss){
+    return ss * 1.8
+})
+console.log(usr3)
 
-// users.forEach(function(N){
-//     console.log(N.name + N.age)
-// })
+const sentences = ["hi", "hello", "js"];
+let usr4 = sentences.map(function(ss){
+    return("!" + ss)
+})
+console.log(usr4)
 
-// const letters = ["a", "b", "c"];
-// letters.forEach(function(usr){
-//     console.log("#" + usr)
-// })
+const items = [
+    {product: "milk", price: 3},
+    {product: "bread", price: 2}
+];
 
-// const nums = [1, 2, 3, 4];
-// let usr = nums.map(function(us){
-//     return us * 2
-// })
-// console.log(usr)
+let usr5 = items.map(function(uss){
+    return(uss.price)
+})
+console.log(usr5)
 
-// const names = ["Ana", "Gio", "Nika"];
-// let usr = names.map(function(nam){
-//     return(nam.toUpperCase())
-// })
-// console.log(usr)
+let numbers = [1, 2, 3, 4, 5];
+numbers.forEach(function(ex){
+    console.log(ex)
+})
 
-// const prices = [10, 20, 30];
-// let usr = prices.map(function(ss){
-//     return ss * 1.8
-// })
-// console.log(usr)
+let usr6 = ["John", "Anna", "Mike"]
+usr6.forEach(function(usrr){
+    console.log(usrr)
+})
 
-// const sentences = ["hi", "hello", "js"];
-// let usr = sentences.map(function(ss){
-//     return("!" + ss)
-// })
-// console.log(usr)
+let numbers2 = [3, 5, 7, 10, 22];
+numbers2.forEach(function(ex){
+    console.log(ex + 5)
+})
 
-// const items = [
-// {product: "milk", price: 3},
-// {product: "bread", price: 2}
-// ];
+let fruit = ["apple", "banana", "kiwi"]
+fruit.forEach(function(uss){
+    console.log(uss.length)
+})
 
+const names2 = ["Ana", "Gio", "Nika"];
+names2.forEach(function(usr){
+    console.log("Hello", usr)
+})
 
-// 5 forEach magaliti
+const nums3 = [1, 2, 3, 4];
+let usr7 = nums3.map(function(Ss){
+    return Ss * 2
+})
+console.log(usr7)
 
-1
-// let usr = items.map(function(uss){
-//     return(uss.price)
-// })
-// console.log(usr)
-2
-// let numbers = [1, 2, 3, 4, 5];
-// numbers.forEach(function(ex){
-//     console.log(ex)
-// })
-3
-// let usr = ["John", "Anna", "Mike"]
-// usr.forEach(function(usrr){
-//     console.log(usrr)
-// })
-4
-// let numbers = [3, 5, 7, 10, 22];
-// numbers.forEach(function(ex){
-//     console.log(ex + 5)
-// })
-5
-// let fruit = ["apple", "banana", "kiwi"]
-// fruit.forEach(function(uss){
-//     console.log(uss.length)
-// })
-6
-// const names = ["Ana", "Gio", "Nika"];
-// names.forEach(function(usr){
-//     console.log("HEllo",  usr)
-// })
+let usr8 = ["task1", "task2", "task3"]
+let usr9 = usr8.map(function(s){
+    return(s + "done")
+})
+console.log(usr9)
 
+const nums4 = [1, 2, 3, 4];
+let usr10 = nums4.map(function(s){
+    return(s.toString())
+})
+console.log(usr10)
 
-// 5 map magaliti
+let numbers3 = [3, 5, 7, 10, 22];
+let usr11 = numbers3.map(function(s){
+    return( s + 10)
+})
+console.log(usr11)
 
-1
-// const nums = [1, 2, 3, 4];
-// let usr = nums.map(function(Ss){
-//     return Ss * 2
-// })
-// console.log(usr)
-2
-// let usr1 = ["task1", "task2", "task3"]
-// let usr2 = usr1.map(function(s){
-//     return(s + "done")
-// })
-// console.log(usr2)
-
-3
-// const nums = [1, 2, 3, 4];
-// let usr = nums.map(function(s){
-//     return(s.toString())
-// })
-// console.log(usr)
-
-4
-// let numbers = [3, 5, 7, 10, 22];
-// let usr = numbers.map(function(s){
-//     return( s + 10)
-// })
-
-// console.log(usr)
-
-5
-// let names = ["cat", "dog", "fish"]
-// let usr = names.map(function(s){
-//     return(s.toUpperCase())
-// })
-// console.log(usr)
+let names3 = ["cat", "dog", "fish"]
+let usr12 = names3.map(function(s){
+    return(s.toUpperCase())
+})
+console.log(usr12)
