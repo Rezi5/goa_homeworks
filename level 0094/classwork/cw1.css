@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background: #B0ACD5;
+    display: grid;
+    place-items: center;
+}
+
+.a {
+    width: 240px;
+    height: 120px;
+    background: #6A5885;
+    border-radius: 120px 120px 0 0;
+    position: relative;
+}
+
+.a::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #B0ACD5;
+    border-radius: 50%;
+    left: 50%;
+    top: 40px;
+}
