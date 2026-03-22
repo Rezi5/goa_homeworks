@@ -2,13 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./hm1.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+<div class="flex justify-center gap-6">
+    <div class="bg-red-400 p-6 rounded-xl">1</div>
+    <div class="bg-blue-400 p-6 rounded-xl">2</div>
+    <div class="bg-green-400 p-6 rounded-xl">3</div>
+    <div class="bg-yellow-400 p-6 rounded-xl">4</div>
+</div>
 
-    <script src="./hm1.js"></script>
+<!-- 2 Responsive grid cards -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+    <div class="shadow-lg p-6 rounded-xl bg-white">Card</div>
+</div>
+
+<!-- 3 Responsive text -->
+<p class="text-sm md:text-lg lg:text-3xl font-bold">
+Responsive Text Example
+</p>
+
+<!-- 4 Arbitrary values -->
+<div class="bg-purple-400 w-[340px] h-[170px] m-[45px] p-[25px] rounded-xl">
+Arbitrary values
+</div>
+
+<!-- 5 Overlay -->
+<div class="relative w-64 h-40 bg-gray-300">
+    <div class="absolute -top-6 -right-6 w-24 h-24 bg-red-400"></div>
+</div>
+
+<!-- 6 Flex wrapping -->
+<div class="flex flex-wrap gap-4">
+    <div class="bg-blue-400 p-4">1</div>
+    <div class="bg-blue-400 p-4">2</div>
+    <div class="bg-blue-400 p-4">3</div>
+    <div class="bg-blue-400 p-4">4</div>
+    <div class="bg-blue-400 p-4">5</div>
+    <div class="bg-blue-400 p-4">6</div>
+    <div class="bg-blue-400 p-4">7</div>
+</div>
+
+<!-- 7 Grid gallery -->
+<div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+    <div class="bg-gray-400 h-20 hover:scale-110 transition"></div>
+</div>
+
 </body>
 </html>

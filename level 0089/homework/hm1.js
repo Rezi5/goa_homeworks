@@ -1,18 +1,18 @@
-let usr1 = document.getElementById("In1")
-let usr2 = document.getElementById("In2")
-let usr3 = document.getElementById("In3")
-let usr4 = document.getElementById("Btnn")
-let usr5 = document.getElementById("Result")
-usr4.addEventListener('click',()=>{
-    if(usr1.value === ""){
-        alert("input must be a number!")
-        return
-    }if(usr2.value === ""){
-        alert("Input must be a number")
-        return
-    }if(usr3.value === ""){
-        alert("Input must be a number")
-        return
-    }
-    usr5.textContent = Number(usr1.value) +  Number(usr2.value) +  Number(usr3.value)
-})
+// 3Homework
+function signup(email, password, more) {
+    const user = {
+    username: email,
+    password: password,
+    more: more
+    };
+    return user;
+}
+console.log(signup('vashli12ww3','12345678','mwvane vashlis moyvaruli'));
+
+
+// 4Homework
+const numbers = [1, 2, 3, 4, 5];
+const [first,last,...middle] = numbers;
+console.log(numbers)
+
+

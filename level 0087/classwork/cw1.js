@@ -1,33 +1,23 @@
-let nums1 = [1, 2, 3, 4, 5, 6];
-let even = nums1.filter(function(n) {
-    return n % 2 === 0;
-});
-console.log(even);
 
-let nums2 = [5, 12, 8, 20, 3];
-let greaterThan10 = nums2.filter(function(n) {
-    return n > 10;
-});
-console.log(greaterThan10);
+let numbers = [1, 2, 3];
+let upd = [...numbers,4,5,6];
+console.log(upd);
 
-let words = ["apple", "cat", "banana", "dog", "kiwi"];
-let longWords = words.filter(function(w) {
-    return w.length > 4;
-});
-console.log(longWords);
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+const arr3 = [...arr1,...arr2];
+console.log(arr3);
 
-let users = [
-    { name: "Nika", age: 17 },
-    { name: "Lika", age: 19 },
-    { name: "Gio", age: 21 }
-];
-let adults = users.filter(function(u) {
-    return u.age >= 18;
-});
-console.log(adults);
+let colors = ["red", "blue"];
+let upcolors = ['Green',...colors];
+console.log(upcolors);
 
-let words2 = ["apple", "banana", "avocado", "cat", "angel"];
-let startWithA = words2.filter(function(w) {
-    return w[0] === "a";
-});
-console.log(startWithA);
+let obj = {0:10,1:20,3:30};
+let obj1 = {...obj,4:40,5:50,6:60};
+console.log(obj1);
+
+
+let Usr = {name:"USR",age:17};
+let Usr1 = {name:"USR1",age:18};
+let Usr3 = {...Usr,...Usr1,}
+console.log(Usr3)
