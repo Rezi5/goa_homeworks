@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="p-10">
+    <button id="Btn1" class="w-[170px] h-[70px] bg-black text-white rounded-full">Open modal</button>
+    <div class="h-screen flex h-screen justify-center items-center ">
+    <div id="Modalbox" class="w-[400px] h-[400px] bg-black flex flex-col  p-5 gap-[20px] hidden rounded-2xl">
+        <input type="text" placeholder="Name" required class="w-[350px] h-[50px] bg-white rounded-full">
+        <input type="email" placeholder="Email" required class="w-[350px] h-[50px] bg-white rounded-full">
+        <input type="password" placeholder="Password" required class="w-[350px] h-[50px] bg-white rounded-full">
+        <button id="Btn2" class="w-[150px] h-[40px] bg-green-500 text-white rounded-full">Close</button>
+        <button id="Btn3" class="w-[150px] h-[40px] bg-green-500 text-white rounded-full">Send</button>
+        <button id="Btn4" class="w-[150px] h-[40px] bg-green-500 text-white rounded-full">Submit</button>
+    </div>
+    </div>
+    <div class="flex h-screen justify-center items-center">
+    <div id="Modalbox2" class="w-[300px] h-[100px] bg-black flex p-5 hidden rounded-2xl flex flex-col mb-[1500px]">
+        <p class="text-white">Your information has been sended</p>
+        <button id="btn5" class="w-[150px] h-[40px] bg-green-500 text-white rounded-full" >Close</button>
+    </div>
+    </div>
+
+    <script>
+        
+        let usr1 = document.getElementById('Btn1')
+        let usr2 = document.getElementById('Btn2')
+        let usr3 = document.getElementById('Modalbox')
+        let usr4 = document.getElementById('Btn3')
+        let usr5 = document.getElementById('Btn4')
+        let usr6 = document.getElementById('Modalbox2')
+        let usr7 = document.getElementById('btn5')
+        usr1.addEventListener('click',()=>{
+            usr3.classList.remove('hidden')
+        })
+        
+        usr2.addEventListener('click',()=>{
+            usr3.classList.add('hidden')
+        })
+
+        usr4.addEventListener('click',(e)=>{
+            e.preventDefault()
+            alert('Saved without refreshing')
+        })
+
+        usr5.addEventListener('click',()=>{
+            usr6.classList.remove('hidden')
+            usr3.classList.add('hidden')
+        })
+
+        usr7.addEventListener('click',()=>{
+            usr6.classList.add('hidden')
+            usr3.classList.remove('hidden')
+        })
+    </script>
+</body>
+</html>
