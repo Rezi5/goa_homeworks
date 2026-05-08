@@ -61,9 +61,9 @@ class Student{
     }
 }
 
-let Student1 = new Student('Rezi',"Dumbadze",50)
-let Student2 = new Student('Nikoloz','Bidzinashvili',90)
-let Student3 = new Student('Saba','Davitadze',80)
+let Student1 = new Student('Rezi',"idk",50)
+let Student2 = new Student('Nikoloz','idk',90)
+let Student3 = new Student('Saba','idk',80)
 let Student4 = new Student("Luka",'idk',40)
 let Student5 = new Student("Sandro",'idk',80)
 
