@@ -4,6 +4,7 @@ class YoutubeChannel{
         this.#Check()
         this.#Title()
         this.#Publish()
+        console.log("Video uploaded successfully")
     }
 
     #Check(){
@@ -15,7 +16,7 @@ class YoutubeChannel{
     }
 
     #Publish(){
-        console.log("Video uploaded successfully")
+        console.log("Video uploaded xzx")
 }
 }
 let usr = new YoutubeChannel()
