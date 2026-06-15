@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        fetch("https://jsonplaceholder.typicode.com/users")
+        .then((responce)=>responce.json())
+        .then((date)=>{
+            date.forEach(user => {
+                let P = document.createElement("p")
+                P.textContent = user.name
+                document.body.appendChild(P)
+            });
+        })
+
+        fetch("https://jsonplaceholder.typicode.com/users")
+        .then((Responce)=> Responce.json())
+        .then((Date)=>{
+            Date.forEach((user1)=>{
+                let Div = document.createElement("div")
+                Div.textContent = user1.name
+                document.body.appendChild(Div)
+            })
+        })
+
+        .fetch("https://jsonplaceholder.typicode.com/users")
+        .then((ULL)=>ULL.json())
+        .then((LI)=>{
+            let ul = document.createElement("ul")
+            LI.forEach((ULLI)=>{
+                let li = document.createElement("li")
+                li.textContent = ULLI.email
+                ul.appendChild(li)
+            })
+            document.body.appendChild(ul)
+        })
+
+    </script>
+</body>
+</html>

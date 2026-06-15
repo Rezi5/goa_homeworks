@@ -1,6 +1,6 @@
 // Hm1
 let usr = new Promise((resolve,reject)=>{
-    let status = 500
+    let status = 100
     setTimeout(()=>{
         if(status >= 200){
             resolve("Server works")
@@ -44,7 +44,7 @@ usr1
 
 //Hm3
 let usr3 = new Promise((resolve,reject)=>{
-    let FileSize = 8
+    let FileSize = 11
     setTimeout(()=>{
         if(FileSize <= 10){
             resolve("File uploaded")
